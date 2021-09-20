@@ -1,7 +1,7 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
  */
-package com.daftrucks.getvinapi;
+package com.joaoavsantos.cordova.plugin;
 public interface IGetVinInterface extends android.os.IInterface
 {
   /** Default implementation for IGetVinInterface. */
