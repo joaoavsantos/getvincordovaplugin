@@ -1,7 +1,7 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
  */
-package com.daftrucks.getvinapi;
+package com.joaoavsantos.cordova.plugin;
 // Declare any non-default types here with import statements
 
 public interface IVinListener extends android.os.IInterface
