@@ -1,4 +1,4 @@
-package com.daftrucks.getvinapi;
+package com.joaoavsantos.cordova.plugin;
 
 import android.content.ComponentName;
 import android.content.Context;
