@@ -10,8 +10,8 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import com.daftrucks.getvinapi.IGetVinInterface;
-import com.daftrucks.getvinapi.IVinListener;
+import com.joaoavsantos.cordova.plugin.IGetVinInterface;
+import com.joaoavsantos.cordova.plugin.IVinListener;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
