@@ -25,8 +25,8 @@
             </feature>
         </config-file>
 
-        <source-file src="src/main/java/com/daftrucks/getvinapi/GetVinPlugin.java" target-dir="src/com/joaoavsantos/cordova/plugin" />
         <source-file src="src/main/java/com/daftrucks/getvinapi/IGetVinInterface.java" target-dir="src/com/joaoavsantos/cordova/plugin" />
         <source-file src="src/main/java/com/daftrucks/getvinapi/IVinListener.java" target-dir="src/com/joaoavsantos/cordova/plugin" />
+        <source-file src="src/main/java/com/daftrucks/getvinapi/GetVinPlugin.java" target-dir="src/com/joaoavsantos/cordova/plugin" />
     </platform>
 </plugin>
