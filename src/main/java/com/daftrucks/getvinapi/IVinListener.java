@@ -7,7 +7,7 @@ package com.joaoavsantos.cordova.plugin;
 public interface IVinListener extends android.os.IInterface
 {
   /** Default implementation for IVinListener. */
-  public static class Default implements com.daftrucks.getvinapi.IVinListener
+  public static class Default implements com.joaoavsantos.cordova.plugin.IVinListener
   {
     // Report a new VIN value.
     //
@@ -24,28 +24,28 @@ public interface IVinListener extends android.os.IInterface
     }
   }
   /** Local-side IPC implementation stub class. */
-  public static abstract class Stub extends android.os.Binder implements com.daftrucks.getvinapi.IVinListener
+  public static abstract class Stub extends android.os.Binder implements com.joaoavsantos.cordova.plugin.IVinListener
   {
-    private static final java.lang.String DESCRIPTOR = "com.daftrucks.getvinapi.IVinListener";
+    private static final java.lang.String DESCRIPTOR = "com.joaoavsantos.cordova.plugin.IVinListener";
     /** Construct the stub at attach it to the interface. */
     public Stub()
     {
       this.attachInterface(this, DESCRIPTOR);
     }
     /**
-     * Cast an IBinder object into an com.daftrucks.getvinapi.IVinListener interface,
+     * Cast an IBinder object into an com.joaoavsantos.cordova.plugin.IVinListener interface,
      * generating a proxy if needed.
      */
-    public static com.daftrucks.getvinapi.IVinListener asInterface(android.os.IBinder obj)
+    public static com.joaoavsantos.cordova.plugin.IVinListener asInterface(android.os.IBinder obj)
     {
       if ((obj==null)) {
         return null;
       }
       android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
-      if (((iin!=null)&&(iin instanceof com.daftrucks.getvinapi.IVinListener))) {
-        return ((com.daftrucks.getvinapi.IVinListener)iin);
+      if (((iin!=null)&&(iin instanceof com.joaoavsantos.cordova.plugin.IVinListener))) {
+        return ((com.joaoavsantos.cordova.plugin.IVinListener)iin);
       }
-      return new com.daftrucks.getvinapi.IVinListener.Stub.Proxy(obj);
+      return new com.joaoavsantos.cordova.plugin.IVinListener.Stub.Proxy(obj);
     }
     @Override public android.os.IBinder asBinder()
     {
@@ -76,7 +76,7 @@ public interface IVinListener extends android.os.IInterface
         }
       }
     }
-    private static class Proxy implements com.daftrucks.getvinapi.IVinListener
+    private static class Proxy implements com.joaoavsantos.cordova.plugin.IVinListener
     {
       private android.os.IBinder mRemote;
       Proxy(android.os.IBinder remote)
@@ -116,10 +116,10 @@ public interface IVinListener extends android.os.IInterface
           _data.recycle();
         }
       }
-      public static com.daftrucks.getvinapi.IVinListener sDefaultImpl;
+      public static com.joaoavsantos.cordova.plugin.IVinListener sDefaultImpl;
     }
     static final int TRANSACTION_newVin = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
-    public static boolean setDefaultImpl(com.daftrucks.getvinapi.IVinListener impl) {
+    public static boolean setDefaultImpl(com.joaoavsantos.cordova.plugin.IVinListener impl) {
       // Only one user of this interface can use this function
       // at a time. This is a heuristic to detect if two different
       // users in the same process use this function.
@@ -132,7 +132,7 @@ public interface IVinListener extends android.os.IInterface
       }
       return false;
     }
-    public static com.daftrucks.getvinapi.IVinListener getDefaultImpl() {
+    public static com.joaoavsantos.cordova.plugin.IVinListener getDefaultImpl() {
       return Stub.Proxy.sDefaultImpl;
     }
   }
