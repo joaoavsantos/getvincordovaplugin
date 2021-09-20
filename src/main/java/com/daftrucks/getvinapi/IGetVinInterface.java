@@ -253,8 +253,8 @@ public interface IGetVinInterface extends android.os.IInterface
   //
   // Returns true if the listener is correctly registered.
 
-  public boolean registerVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException;
+  public boolean registerVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException;
   // Unregister a previously registered listener.
 
-  public void unregisterVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException;
+  public void unregisterVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException;
 }
