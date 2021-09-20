@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-getvincordovaplugin",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to get vin.",
+  "cordova": {
+    "id": "cordova-plugin-getvincordovaplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoavsantos/getvincordovaplugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Joao Santos <joao.santos@team-resilience.com>"
+  "bugs": {
+    "url": "https://github.com/joaoavsantos/getvincordovaplugin/issues"
+  },
+  "homepage": "https://github.com/joaoavsantos/getvincordovaplugin/"
+}
