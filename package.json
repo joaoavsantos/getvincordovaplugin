@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-getvincordovaplugin",
+  "name": "cordova-plugin-getvin",
   "version": "0.0.1",
   "description": "An Android Cordova plugin that allows users to get vin.",
   "cordova": {
-    "id": "cordova-plugin-getvincordovaplugin",
+    "id": "cordova-plugin-getvin",
     "platforms": [
       "android"
     ]
