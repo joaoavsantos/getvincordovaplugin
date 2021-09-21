@@ -1,11 +1,11 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
  */
-package com.joaoavsantos.cordova.plugin;
+package com.daftrucks.getvinapi;
 public interface IGetVinInterface extends android.os.IInterface
 {
   /** Default implementation for IGetVinInterface. */
-  public static class Default implements com.joaoavsantos.cordova.plugin.IGetVinInterface
+  public static class Default implements com.daftrucks.getvinapi.IGetVinInterface
   {
     // Get the plain VIN.
     //
@@ -30,13 +30,13 @@ public interface IGetVinInterface extends android.os.IInterface
     //
     // Returns true if the listener is correctly registered.
 
-    @Override public boolean registerVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException
+    @Override public boolean registerVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException
     {
       return false;
     }
     // Unregister a previously registered listener.
 
-    @Override public void unregisterVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException
+    @Override public void unregisterVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException
     {
     }
     @Override
@@ -45,28 +45,28 @@ public interface IGetVinInterface extends android.os.IInterface
     }
   }
   /** Local-side IPC implementation stub class. */
-  public static abstract class Stub extends android.os.Binder implements com.joaoavsantos.cordova.plugin.IGetVinInterface
+  public static abstract class Stub extends android.os.Binder implements com.daftrucks.getvinapi.IGetVinInterface
   {
-    private static final java.lang.String DESCRIPTOR = "com.joaoavsantos.cordova.plugin.IGetVinInterface";
+    private static final java.lang.String DESCRIPTOR = "com.daftrucks.getvinapi.IGetVinInterface";
     /** Construct the stub at attach it to the interface. */
     public Stub()
     {
       this.attachInterface(this, DESCRIPTOR);
     }
     /**
-     * Cast an IBinder object into an com.joaoavsantos.cordova.plugin.IGetVinInterface interface,
+     * Cast an IBinder object into an com.daftrucks.getvinapi.IGetVinInterface interface,
      * generating a proxy if needed.
      */
-    public static com.joaoavsantos.cordova.plugin.IGetVinInterface asInterface(android.os.IBinder obj)
+    public static com.daftrucks.getvinapi.IGetVinInterface asInterface(android.os.IBinder obj)
     {
       if ((obj==null)) {
         return null;
       }
       android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
-      if (((iin!=null)&&(iin instanceof com.joaoavsantos.cordova.plugin.IGetVinInterface))) {
-        return ((com.joaoavsantos.cordova.plugin.IGetVinInterface)iin);
+      if (((iin!=null)&&(iin instanceof com.daftrucks.getvinapi.IGetVinInterface))) {
+        return ((com.daftrucks.getvinapi.IGetVinInterface)iin);
       }
-      return new com.joaoavsantos.cordova.plugin.IGetVinInterface.Stub.Proxy(obj);
+      return new com.daftrucks.getvinapi.IGetVinInterface.Stub.Proxy(obj);
     }
     @Override public android.os.IBinder asBinder()
     {
@@ -93,8 +93,8 @@ public interface IGetVinInterface extends android.os.IInterface
         case TRANSACTION_registerVinListener:
         {
           data.enforceInterface(descriptor);
-          com.joaoavsantos.cordova.plugin.IVinListener _arg0;
-          _arg0 = com.joaoavsantos.cordova.plugin.IVinListener.Stub.asInterface(data.readStrongBinder());
+          com.daftrucks.getvinapi.IVinListener _arg0;
+          _arg0 = com.daftrucks.getvinapi.IVinListener.Stub.asInterface(data.readStrongBinder());
           boolean _result = this.registerVinListener(_arg0);
           reply.writeNoException();
           reply.writeInt(((_result)?(1):(0)));
@@ -103,8 +103,8 @@ public interface IGetVinInterface extends android.os.IInterface
         case TRANSACTION_unregisterVinListener:
         {
           data.enforceInterface(descriptor);
-          com.joaoavsantos.cordova.plugin.IVinListener _arg0;
-          _arg0 = com.joaoavsantos.cordova.plugin.IVinListener.Stub.asInterface(data.readStrongBinder());
+          com.daftrucks.getvinapi.IVinListener _arg0;
+          _arg0 = com.daftrucks.getvinapi.IVinListener.Stub.asInterface(data.readStrongBinder());
           this.unregisterVinListener(_arg0);
           reply.writeNoException();
           return true;
@@ -115,7 +115,7 @@ public interface IGetVinInterface extends android.os.IInterface
         }
       }
     }
-    private static class Proxy implements com.joaoavsantos.cordova.plugin.IGetVinInterface
+    private static class Proxy implements com.daftrucks.getvinapi.IGetVinInterface
     {
       private android.os.IBinder mRemote;
       Proxy(android.os.IBinder remote)
@@ -169,7 +169,7 @@ public interface IGetVinInterface extends android.os.IInterface
       //
       // Returns true if the listener is correctly registered.
 
-      @Override public boolean registerVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException
+      @Override public boolean registerVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException
       {
         android.os.Parcel _data = android.os.Parcel.obtain();
         android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -192,7 +192,7 @@ public interface IGetVinInterface extends android.os.IInterface
       }
       // Unregister a previously registered listener.
 
-      @Override public void unregisterVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException
+      @Override public void unregisterVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException
       {
         android.os.Parcel _data = android.os.Parcel.obtain();
         android.os.Parcel _reply = android.os.Parcel.obtain();
@@ -211,12 +211,12 @@ public interface IGetVinInterface extends android.os.IInterface
           _data.recycle();
         }
       }
-      public static com.joaoavsantos.cordova.plugin.IGetVinInterface sDefaultImpl;
+      public static com.daftrucks.getvinapi.IGetVinInterface sDefaultImpl;
     }
     static final int TRANSACTION_getVin = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
     static final int TRANSACTION_registerVinListener = (android.os.IBinder.FIRST_CALL_TRANSACTION + 1);
     static final int TRANSACTION_unregisterVinListener = (android.os.IBinder.FIRST_CALL_TRANSACTION + 2);
-    public static boolean setDefaultImpl(com.joaoavsantos.cordova.plugin.IGetVinInterface impl) {
+    public static boolean setDefaultImpl(com.daftrucks.getvinapi.IGetVinInterface impl) {
       // Only one user of this interface can use this function
       // at a time. This is a heuristic to detect if two different
       // users in the same process use this function.
@@ -229,7 +229,7 @@ public interface IGetVinInterface extends android.os.IInterface
       }
       return false;
     }
-    public static com.joaoavsantos.cordova.plugin.IGetVinInterface getDefaultImpl() {
+    public static com.daftrucks.getvinapi.IGetVinInterface getDefaultImpl() {
       return Stub.Proxy.sDefaultImpl;
     }
   }
@@ -253,8 +253,8 @@ public interface IGetVinInterface extends android.os.IInterface
   //
   // Returns true if the listener is correctly registered.
 
-  public boolean registerVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException;
+  public boolean registerVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException;
   // Unregister a previously registered listener.
 
-  public void unregisterVinListener(com.joaoavsantos.cordova.plugin.IVinListener listener) throws android.os.RemoteException;
+  public void unregisterVinListener(com.daftrucks.getvinapi.IVinListener listener) throws android.os.RemoteException;
 }
