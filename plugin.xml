@@ -20,8 +20,8 @@
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="getvincordovaplugin">
-                <param name="android-package" value="com.daftrucks.getvincordovaplugin"/>
+            <feature name="GetVinPlugin">
+                <param name="android-package" value="com.daftrucks.getvincordovaplugin.GetVinPlugin"/>
             </feature>
         </config-file>
 
